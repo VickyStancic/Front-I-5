@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #242E52;
+}
+
+header{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-bottom: 100px;
+margin-top: 75.13px;
+}
+
+h1{
+background: url("../img/logo.svg") no-repeat;
+font-size: 0;
+width: 200px;
+height: 50px;
+display: block;
+}
+
+header nav{
+    background-size: 32px;
+    width: 400px;
+    height: 32px;
+    display: block;
+    }
+    /* header button{
+        display: none;
+    } */
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header nav ul li{
+color: #242E52;
+/* display: none; */
+list-style-type: none;
+width: 650px;
+justify-content: space-between;
+}
+
+button{
+background: #F3603B;
+color:#FFFFFF;
+border-radius: 50px;
+height: 44px;
+border: none;
+width: 134px;
+}
+#botonHeader{
+    margin-left: 100px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* .boton{
+    text-align: left;
+} */
+
+
+ main section{
+    align-items:flex-start;
+}
+
+main section.primera{
+    color: #242E52;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 15px;
+}
+
+main section ol li{
+    list-style-type: none;
+}
+
+main section.primera div h2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+main section.primera div p{
+    text-align: left;
+    padding-bottom: 20px;
+    color:#000000;
+}
+main section.primera div{
+    width: 40%;
+}
+main section.primera img{
+    width: 60%;
+    height: 500px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+main section.segunda{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section.segunda div{
+    width: 30%;
+    margin-left: 100px;
+}
+main section.segunda div p{
+    width: 70%;
+    text-align: left;
+}
+main section.segunda div h2{
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #242E52;
+    padding-top: 30px;
+    text-align: left;
+}
+
+main section.segunda ol{
+    width: 50%;
+    padding: 10px;
+    justify-content: space-between;
+    margin-left: 150px;
+    color: #242E52;
+}
+
+main section.segunda ol p{
+    color: #B3B2B7;
+    text-align: left;
+}
+
+main section div.articulo{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+main section.segunda ol li{
+    padding: 20px;
+    width: 70%;
+}
+
+main section.segunda ol li h3{
+    padding: 10px;
+    text-align: left;
+}
+
+main section.tercera{
+    color: #242E53;
+}
+
+section.tercera ul{
+    display: flex;
+}
+
+section.tercera h2{
+    display: flex;
+    margin-left: 450px;
+    padding-top: 130px;
+}
+
+main section.tercera ul li{
+    list-style-type: none;
+    margin-bottom: 60px;
+    padding-top: 74px;
+}
+
+#botonTercera{
+    margin-bottom: 140px;
+}
+
+main section.tercera img{
+    width: 70px;
+    height: 70px;
+}
+
+main section.tercera p{
+    color: #B9B9C1;
+    padding: 15px;
+}
+
+main button{
+    position: static;
+    border-radius: 50px;
+    margin-left: 10px;
+color: #FFFFFF;
+}
+section.naranja {
+    background-color: #F3613C;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+section.naranja h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 450px;
+    text-align: left;
+    height: 96px;
+}
+
+#blanco{
+    color: #F3603B;
+    background:#FFFFFF;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #1E1E26;
+    display: flex;
+}
+
+footer nav{
+    display: flex;
+}
+
+footer h2{
+    background: url("../img/Logo.png") no-repeat;
+    font-size: 0;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+footer input{
+    background: #FFFFFF;
+    color: #F3603B; 
+    position: static;
+    border-radius: 50px;
+    padding: 8px;
+    margin-left: 100px;
+}
+
+footer input.go{
+    background: #F3603B;
+    color:#FFFFFF;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+}
+
+footer input.email{
+    text-align: left;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+}
+
+footer div.listas{
+    display: flex;
+    margin-left: 70px;
+    flex-direction: column;
+}
+
+footer div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+footer p{
+    color: #8C8C94;
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 10px;
+}
+
+.footerforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer ul.lisp li{
+    padding: 10px;
+
+}
+
+footer ul.liss li{
+    padding: 10px;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+footer ul.lisp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 80px;
+    align-items: flex-start;
+    width: 150px;
+}
+
+ footer ul.icons li{
+    background-size: 32px;
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    display: block;
+    font-size: 0px;
+    display: flex;
+    margin-top: 40px;
+ }
+
+footer ul li.face {
+    background: url("../img/icon-facebook.svg") no-repeat;
+    }
+
+footer ul li.you{
+    background: url("../img/icon-youtube.svg") no-repeat;
+}
+
+ footer ul li.tw{
+    background: url("../img/icon-twitter.svg")no-repeat;
+ }
+
+footer ul li.pin{
+    background: url("../img/icon-pinterest.svg")no-repeat;
+}
+
+footer ul li.ing{
+    background: url("../img/icon-instagram.svg")no-repeat;
+}
+
+ footer nav ul.lisp li a{
+     color: #FFFFFF;
+     list-style: none;
+}
+
+footer nav ul li{
+    color: #FFFFFF;
+    list-style: none;
+}
+
+
+@media(max-width:375px){
+    *{
+        flex-wrap: wrap;
+}
+}
+/* header nav{
+background: url(../img/menu.png) no-repeat;
+} */
